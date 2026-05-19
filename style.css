@@ -1,0 +1,240 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222;
+
+}
+header {
+
+    background-color: #222;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+
+}
+
+nav ul {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+}
+nav a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+main {
+
+    padding: 40px;
+
+}
+
+footer {
+
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+section {
+
+    padding: 40px 20px;
+
+}
+
+h1 {
+
+    font-size: 40px;
+
+}
+
+h2 {
+
+    color: #222;
+
+}
+
+article {
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+a:focus,
+button:focus {
+
+    outline: 3px solid blue;
+
+}
+.skip-link {
+
+    position: absolute;
+    left: -999px;
+
+}
+
+.skip-link:focus {
+
+    left: 10px;
+    top: 10px;
+    background: yellow;
+    padding: 10px;
+
+}
+form {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+
+label {
+
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+input,
+textarea {
+
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+button {
+
+    margin-top: 20px;
+    padding: 12px;
+
+    background-color: #222;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+button:hover {
+
+    background-color: #444;
+
+    transform: scale(1.03);
+
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+a:focus {
+
+    outline: 3px solid blue;
+
+}
+@media (max-width: 768px) {
+    #hero-heading {
+
+    font-size: 42px;
+
+}
+
+    nav ul {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h1 {
+
+        font-size: 30px;
+
+    }
+
+    section {
+
+        padding: 20px;
+
+    }
+
+}
+#hero-heading {
+
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+
+}
+
+section p {
+
+    max-width: 700px;
+
+}
+nav a {
+
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+nav a:hover {
+
+    color: #00bfff;
+
+}
+main {
+
+    max-width: 1000px;
+    margin: auto;
+
+}
+h1,
+h2,
+h3 {
+
+    line-height: 1.2;
+
+}
+p {
+
+    font-size: 18px;
+
+}
+article {
+
+    transition: 0.3s;
+
+}
+article:hover {
+
+    transform: translateY(-5px);
+
+}
