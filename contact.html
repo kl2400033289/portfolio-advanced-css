@@ -11,8 +11,11 @@
     <meta name="description"
           content="Contact Hemangini Palla">
 
+    <meta name="theme-color"
+          content="#222222">
+
     <title>
-        Contact - Hemangini Portfolio
+        Contact
     </title>
 
     <link rel="stylesheet"
@@ -57,52 +60,57 @@
 
         </nav>
 
+        <button id="theme-toggle">
+            Dark Mode
+        </button>
+
     </header>
 
     <main id="main-content">
+
         <section aria-labelledby="contact-heading">
 
-    <h1 id="contact-heading">
-        Contact Me
-    </h1>
+            <h1 id="contact-heading">
+                Contact Me
+            </h1>
 
-    <form aria-label="Contact Form">
+            <form aria-label="Contact Form">
 
-        <label for="name">
-            Full Name
-        </label>
+                <label for="name">
+                    Full Name
+                </label>
 
-        <input type="text"
-               id="name"
-               name="name"
-               required>
+                <input
+                    type="text"
+                    id="name"
+                    required>
 
-        <label for="email">
-            Email Address
-        </label>
+                <label for="email">
+                    Email Address
+                </label>
 
-        <input type="email"
-               id="email"
-               name="email"
-               required>
+                <input
+                    type="email"
+                    id="email"
+                    required>
 
-        <label for="message">
-            Message
-        </label>
+                <label for="message">
+                    Message
+                </label>
 
-        <textarea id="message"
-                  name="message"
-                  rows="5"
-                  required>
-        </textarea>
+                <textarea
+                    id="message"
+                    rows="5"
+                    required>
+                </textarea>
 
-        <button type="submit">
-            Send Message
-        </button>
+                <button type="submit">
+                    Send Message
+                </button>
 
-    </form>
+            </form>
 
-</section>
+        </section>
 
     </main>
 
@@ -113,6 +121,8 @@
         </p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
